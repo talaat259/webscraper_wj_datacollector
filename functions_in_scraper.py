@@ -63,9 +63,9 @@ def article_extractor(articles,parsed_date):
 def extractor(url_new,parsed_date):
     global i
     #driver = webdriver.Chrome()
-    print("ana hena")
+   
     driver.get(url_new)
-    print("we hena")
+   
    
     time.sleep(3)  
 
@@ -104,8 +104,7 @@ def extractor(url_new,parsed_date):
         linkawi="https://www.wsj.com/news/archive/2000/01/03?page="+strr
         extractor(linkawi,parsed_date)
         
-    print("tele3t we shaklak ryaal")
-    print("badong_al_dong"*10)
+   
     
 
     # Print the number of articles found
@@ -129,9 +128,9 @@ def content_creator(headline,link,date):
 
     section_text=section.text
     #content = "\n".join([p.text for p in paragraphs])
-    print("contentttttt"*10)
+   
     print(section_text)
-    print("contentttttt"*10)
+   
     exit()
     #with open(f"/home/talaat/Dates_Dataset_Articles/{file_name}.txt","a")as document:
         #document.write(headline)
@@ -157,7 +156,7 @@ if __name__=="__main__":
 
         # Remove the header row
     rows.pop(0)
-    print("gowa al main")
+    print("inside main")
 
     # Define the base URL for the WSJ archive
     url = "https://www.wsj.com/news/archive/"
