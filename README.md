@@ -1,6 +1,3 @@
-I’m unable to directly edit files in your repository from here, but you can replace your README.md with the improved version below. Copy and paste this content into your README.md file:
-
----
 
 # WSJ Article Archive Scraper
 
@@ -76,5 +73,3 @@ Please respect WSJ’s Terms of Service and avoid any scraping practices that ma
 GitHub: [https://github.com/talaat259](https://github.com/talaat259)
 
 ---
-
-If you want step-by-step instructions for replacing the README.md via GitHub or the command line, let me know!
